@@ -76,26 +76,26 @@ public class Main {
 
         //Задание 3
         System.out.println("Задание 3");
-        int one = 10;
-        int two = 12;
-        int three = 90;
+        int one = 111;
+        int two = 112;
+        int three = 123;
         if (one > two) {
             if (one >= three) {
-                System.out.println("Число " + one + " больше");
+                System.out.println("Первое число " + one + " больше");
             } else {
-                System.out.println("Число " + three + " больше");
+                System.out.println("Третье Число " + three + " больше");
             }
         }else if (two > one) {
             if (two>= three) {
-                System.out.println("Число " + two + " больше");
+                System.out.println("Второе число " + two + " больше");
             }else {
-                System.out.println("Число " + three + " больше");
+                System.out.println("Третье число " + three + " больше");
             }
         }else {
             if (one > three) {
-                System.out.println("Число " + one + " болше");
+                System.out.println("Первое число " + one + " болше");
             }else if (three > one) {
-                System.out.println("Число " + three + " больше");
+                System.out.println("Третье число " + three + " больше");
             }else {
                 System.out.println("Все числа равны между собой");
             }
